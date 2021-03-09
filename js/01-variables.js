@@ -29,3 +29,17 @@ console.log(pazymiai);
 
 const abc = ['a', 'b', 'd', 'e', 'g'];
 console.log(abc);
+
+const pirmasPazymys = pazymiai[0];
+console.log(pirmasPazymys);
+
+const antrasPazymys = pazymiai[1];
+console.log(antrasPazymys);
+
+const pzSuma= pazymiai[0] + pazymiai[1] + pazymiai[2] + pazymiai[3] + pazymiai[4] + pazymiai[5];
+
+const pzKiekis = pazymiai.length;
+const pzVidurkis = pzSuma / pzKiekis;
+console.log('Pazymiu suma:', pzSuma);
+console.log('Pazymiu kiekis:', pzKiekis);
+console.log('Pazymiu vidurkis:', pzVidurkis);
