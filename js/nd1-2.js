@@ -36,8 +36,8 @@ console.log(msv6);
 
 console.log('*****************');
 
-const suma = randsk1 + randsk2 + randsk3;
-console.log(suma);
+const ssuma = randsk1 + randsk2 + randsk3;
+console.log(ssuma);
 
 const rink = `${vardpava} ${amzius} ${elpastas}`;
 console.log(rink);
@@ -51,8 +51,9 @@ amount1 = amount1 + msv3[4];
 console.log(amount1);
 
 let eiles = '';
-eiles = eiles + ', ' + msv5[4];
+eiles = eiles + msv5[4];
 eiles = eiles + ', ' + msv5[3];
 eiles = eiles + ', ' + msv5[2];
 eiles = eiles + ', ' + msv5[1];
+eiles = eiles + ', ' + msv5[0];
 console.log(eiles);
