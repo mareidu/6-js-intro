@@ -49,3 +49,14 @@ console.log(petrasBacktick);
 const marks = [10, 5, 8, 9, 6, 3];
 const markSentence0 = `Pirmas pazymys: ${marks[0]}`;
 console.log(markSentence0);
+const markSentence1 = `Antras pazymys: ${marks[1]}.`;
+console.log(markSentence1);
+const markSentence = `Naujausias pazymys: ${marks[marks.length - 1]}.`;
+console.log(markSentence);
+
+const navHTML2 = `<nav>
+                   <a href = "#">Link</a>
+                   <a href = "#">Link</a>
+                   <a href = "#">Link</a>
+                </nav?`;
+console.log(navHTML);
