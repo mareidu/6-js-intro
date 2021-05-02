@@ -1,4 +1,4 @@
-fuction bigNum(list) {
+function bigNum(list) {
     if (!Array.isArray(list)) {
         return 'ERROR: netinkamas tipas, turi būti array';
     }
