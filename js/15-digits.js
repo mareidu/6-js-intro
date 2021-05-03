@@ -1,6 +1,6 @@
 function digits(skaicius) {
     if (typeof skaicius !== 'number') {
-        return 'ERROR: turi buti skaiciaus tipas''
+        return 'ERROR: turi buti skaiciaus tipas';
     }
     if (!isFinite(skaicius)) {
         return 'ERROR: ${skaicius} nera normalus skaicius';
