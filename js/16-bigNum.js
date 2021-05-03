@@ -3,7 +3,7 @@ function bigNum(list) {
         return 'ERROR: netinkamas tipas, turi būti array';
     }
     if (list.length == 0) {
-        return 'ERROR: array is empty''
+        return 'ERROR: array is empty';
     }
 
     let biggest = -Infinity;
