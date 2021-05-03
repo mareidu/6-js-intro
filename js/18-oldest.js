@@ -33,7 +33,7 @@ function oldestWithName(asmuo) {
         }
     }
     return {
-        name: oldestName;
+        name: oldestName,
         age: biggestAge
     }
 }
