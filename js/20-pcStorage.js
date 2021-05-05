@@ -1,4 +1,4 @@
-fucntion Storage() {
+function Storage() {
     return 0;
 }
 
